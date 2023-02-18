@@ -1,0 +1,163 @@
+:root {
+  --first-color: #56a3a6ff;
+  /* --second-color: #c16200ff; */
+  --second-color: #ff5f00ff;
+  --third-color: #212227ff;
+  --fourth-color: #e0ca3cff;
+  --fifth-color: #fceff9ff;
+
+  --sixth-color: #2E0249;
+  --erro-color: #C20114;
+
+  
+  --nineth-color: rgb(41,41,41);
+  --seventh-color: rgb(34,34,34);
+  --eigth-color: rgb(31,31,31);
+
+  font-size: 62.5%;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../img/tanjiro/Tanjiro3.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2;
+}
+
+body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(to top, rgba(31, 31, 31, 0.137), rgba(31, 31, 31, 0.377),rgba(31, 31, 31, 0.603));
+  z-index: -1;
+}
+
+
+#navbar {
+  height: 10rem;
+} 
+
+#logo {
+  color: var(--fifth-color);
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+#dev {
+  color: rgb(98,60,234);
+  font-weight: 700;
+}
+#img-logo {
+  transform: translateY(-3px);
+}
+#logo:hover {
+  color: var(--second-color);
+  transform: scale(1.1);
+  text-shadow: 0px 0px 20px #da172ab4;
+}
+
+#buttonS {
+  background-color: var(--second-color);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+i{
+color: var(--fifth-color);
+}
+
+p {
+  font-size: 1.2rem;
+  color: var(--fifth-color);
+}
+
+#gal {
+  color: var(--fifth-color);
+  transition: trasform 0.3s;
+}
+
+#gal:hover {
+  color: var(--second-color);
+  transform: scale(1.04);
+}
+
+#row1 {
+  background-color: var(--seventh-color);
+}
+
+
+#message {
+  background-color: var(--nineth-color);
+}
+
+#tanjiroN {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#cont-sect1 {
+  border: 1px solid var(--fifth-color);
+  background-color: rgba(34, 34, 34, 0.658);
+}
+
+#row2left {
+  background-color: rgba(255, 94, 0, 0.664);
+}
+
+
+.card {
+  background-color: var(--nineth-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer #footer-cont {
+  background-color: var(--nineth-color);
+}
+
+footer #footer-cont a {
+  color: var(--fifth-color);
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+footer #footer-cont a:hover {
+  color: var(--second-color);
+  transform: scale(1.1);
+}
+
+footer #footer-cont i {
+  color: var(--second-color);
+  font-size: 2.6rem;
+  transform: translateY(3px);
+}

@@ -1,0 +1,196 @@
+:root {
+  --first-color: #56a3a6ff;
+  /* --second-color: #c16200ff; */
+  --second-color: #ff5f00ff;
+  --third-color: #212227ff;
+  --fourth-color: #e0ca3cff;
+  --fifth-color: #fceff9ff;
+
+  --sixth-color: #2E0249;
+  --erro-color: #C20114;
+
+  
+  --nineth-color: rgb(41,41,41);
+  --seventh-color: rgb(34,34,34);
+  --eigth-color: rgb(31,31,31);
+
+  font-size: 62.5%;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--eigth-color);
+  box-sizing: border-box;
+
+}
+
+#navbar {
+  height: 10rem;
+} 
+
+#logo {
+  color: var(--fifth-color);
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+#dev {
+  color: rgb(98,60,234);
+  font-weight: 700;
+}
+#img-logo {
+  transform: translateY(-3px);
+}
+#logo:hover {
+  color: var(--second-color);
+  transform: scale(1.1);
+  text-shadow: 0px 0px 20px #da172ab4;
+}
+
+#buttonS {
+  background-color: var(--second-color);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+i{
+color: var(--fifth-color);
+}
+
+p {
+  font-size: 2;
+  color: var(--third-color);
+}
+
+
+.body {
+  background: url(../img/bg-hashira.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -2;
+}
+
+.body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to top, rgb(17, 17, 17), rgba(78, 78, 78, 0.486), rgba(146, 146, 146, 0.089));
+  z-index: -1;
+}
+
+
+#container-11 {
+  border: 1px solid var(--fifth-color);
+  background-color: var(--nineth-color);
+}
+
+#titlecont {
+  border: 2px solid var(--fifth-color);
+  border-radius: 5px;
+  background-color: var(--second-color);
+}
+
+
+#guide {
+  text-transform: uppercase;
+  color: var(--first-color);
+  text-decoration: none;
+  margin-inline: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#guide  {
+  transform: translateY(5px);
+}
+
+#guides i {
+  transform: translateY(9px);
+}
+
+#stats {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin-inline: 20px;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--fifth-color);
+  text-shadow: 1px 4px 5px var(--third-color);
+}
+
+#num {
+  font-size: 3rem;
+}
+
+
+#container-22 {
+  border: 1px solid var(--fifth-color);
+  background-color: var(--nineth-color);
+}
+
+#name {
+  right: 0px;
+  bottom: 0px;
+  color: var(--fifth-color);
+  padding: 3px 5px;
+} 
+
+#card {
+  background-color: var(--nineth-color);
+}
+
+#card img {
+  transition: transform 0.3s;
+}
+
+#card img:hover {
+  transform: scale(1.02);
+}
+
+
+
+.accordion #question {
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* color: var(--fifth-color); */
+}
+
+.accordion #ans {
+  font-size: 1.3rem;
+  /* color: var(--fifth-color); */
+}
+
+    footer #footer-cont {
+      background-color: var(--nineth-color);
+    }
+    
+    footer #footer-cont a {
+      color: var(--fifth-color);
+      font-size: 1.5rem;
+      transition: transform 0.3s;
+    }
+    
+    footer #footer-cont a:hover {
+      color: var(--second-color);
+      transform: scale(1.1);
+    }
+    
+    footer #footer-cont i {
+      color: var(--second-color);
+      font-size: 2.6rem;
+      transform: translateY(3px);
+    }
+    

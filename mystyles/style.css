@@ -1,0 +1,151 @@
+:root {
+  --first-color: #56a3a6ff;
+  /* --second-color: #c16200ff; */
+  --second-color: #ff5f00ff;
+  --third-color: #212227ff;
+  --fourth-color: #e0ca3cff;
+  --fifth-color: #fceff9ff;
+
+  --sixth-color: #2E0249;
+  --erro-color: #C20114;
+
+  
+  --nineth-color: rgb(41,41,41);
+  --seventh-color: rgb(34,34,34);
+  --eigth-color: rgb(31,31,31);
+
+  font-size: 62.5%;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--eigth-color);
+  box-sizing: border-box;
+
+}
+
+#navbar {
+  height: 10rem;
+} 
+
+#logo {
+  color: var(--fifth-color);
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+#dev {
+  color: rgb(98,60,234);
+  font-weight: 700;
+}
+#img-logo {
+  transform: translateY(-3px);
+}
+#logo:hover {
+  color: var(--second-color);
+  transform: scale(1.1);
+  text-shadow: 0px 0px 20px #da172ab4;
+}
+
+#buttonS {
+  background-color: var(--second-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+i{
+color: var(--fifth-color);
+}
+
+p {
+  font-size: 2;
+  color: var(--third-color);
+}
+
+#section-cont1 {
+  background-color: var(--nineth-color);
+}
+
+#headerbox {
+  background-color: var(--second-color);
+}
+
+#aya {
+  left: 10px;
+  top: -50px;
+}
+
+.section-main #content-container {
+  background-color: var(--nineth-color);
+  box-sizing: border-box;
+  border: 1px solid var(--fifth-color);
+}
+
+.section-main #card {
+  border: 0;
+  background-color: var(--seventh-color);
+}
+
+.section-main #card h5 {
+  color: var(--second-color);
+}
+
+.section-main #card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--fifth-color);
+}
+
+.section-main #card{
+  transition: transform 0.3s;
+}
+
+.section-main #card:hover{
+  transform: scale(1.02);
+}
+
+.section-main #card a {
+  background-color: var(--second-color);
+  border: none;
+  transition: transform 0.3s;
+}
+
+.section-main #card a:hover {
+  transform: scale(1.1);
+}
+
+#section-cards {
+  transform: translatey(-50px);
+}
+
+footer #footer-cont {
+  background-color: var(--nineth-color);
+}
+
+footer #footer-cont a {
+  color: var(--fifth-color);
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+footer #footer-cont a:hover {
+  color: var(--second-color);
+  transform: scale(1.1);
+}
+
+footer #footer-cont i {
+  color: var(--second-color);
+  font-size: 2.6rem;
+  transform: translateY(3px);
+}
+
